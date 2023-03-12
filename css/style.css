@@ -1,0 +1,271 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', Arial, Helvetica, sans-serif !important;
+    width: 100vw;
+    height: auto;
+    background: #212125 !important;
+    overflow-x: hidden;
+}
+
+/* Typographic Styles */
+
+.typography-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 700;
+}
+
+.typography-sub-heading {
+    font-size: 2rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.typography-label {
+    font-size: 1rem;
+    line-height:1.5;
+    font-weight: 600;
+}
+
+.typography-label-large {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.typography-title {
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 700;
+}
+
+.body {
+    font-size: 1rem;
+    line-height: 1.75;
+    font-weight: 500;
+}
+
+/* Globals */
+
+a {
+    display: block !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+a:hover {
+    cursor: pointer; 
+    color: #D4D4D8 !important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+section {
+    max-width: 100%;
+    padding: 124px 128px;
+
+    gap: 64px;
+}
+
+section > div {
+    max-width: 100%;
+}
+
+button {
+    padding: 16px 32px;
+    gap: 8px;
+    height: 56px;
+
+    background: linear-gradient(91.7deg, #566FC8 0.81%, #4E53D7 98.85%);
+
+    border-radius: 56px !important;
+
+    cursor: pointer;
+}
+
+i {
+    font-size: 24px;
+}
+
+.solid-hr {
+    width: 100%;
+    border-top: 1px solid #D4D4D8;
+}
+
+.row {
+    width: 100%;
+}
+
+/* Header */
+
+header {
+    padding: 32px 128px;
+
+    max-width: 100%;
+    height: 112px;
+
+    background: rgba(33, 33, 37, 0.5);
+    backdrop-filter: blur(22.5px);
+
+    z-index: 7;
+}
+
+/* Side Navigation */
+
+.side-nav {
+    width: 66px;
+    height: 288px;
+    right: 88px;
+    top: calc((100vh - 288px) / 2);
+}
+
+.side-nav li {
+    height: 48px;
+}
+
+.side-nav a {
+    height: 48px;
+}
+
+/* Section: Overview */
+
+.back-button {
+   width: 48px;
+   height: 48px;
+}
+
+.back-button i {
+    font-size: 48px;
+}
+
+.title {
+    gap: 40px;
+}
+
+.tag {
+    background-color: #3A3FAF;
+    padding: 4px 12px;
+}
+
+.sub-heading {
+    color: #A8A9B0 !important;
+}
+
+.descriptive-block ul {
+    list-style-type: disc;
+    color: #D4D4D8;
+}
+
+.deliverables {
+    width: 100%;
+}
+
+.deliverable-card {
+    width: 160px;
+
+    gap: 16px;
+}
+
+.deliverable-card .card-background {
+    width: 160px;
+    height: 160px;
+
+    background: #2C2C32;
+    border-radius: 160px;
+}
+
+.deliverable-card img {
+    width: 64px;
+    height: 64px;
+}
+
+.overview p {
+    width: 100%;
+
+    color: #D4D4D8;
+}
+
+/* Section: Process */
+
+.process {
+    border-top: 1px solid #42434A;
+}
+
+.process-card {
+    background: #2C2C32;
+    padding: 48px;
+}
+
+.process-card p {
+    color: #D4D4D8;
+}
+
+.process-card i {
+    font-size: 240px;
+    color: #42434A;
+    right: -48px;
+    top: -64px;
+}
+
+/* Section: Conclusion */
+
+.conclusion {
+    background: #2C2C32;
+}
+
+.conclusion p {
+    color: #D4D4D8;
+}
+
+/* Section: Other projects */
+
+.project-card img {
+    width: 100%;
+    height: 240px;
+
+    background: #42434A;
+}
+
+.project-card p {
+    color: #A8A9B0;
+}
+
+/* Footer */
+
+footer {
+    max-width: 100%;
+    padding: 124px 128px;
+    gap: 80px;
+}
+
+.social-links {
+    padding: 0px;
+    gap: 80px;
+
+    width: 100%;
+}
+
+.social-links ul {
+    gap: 32px;
+}
+
+.contact-content {
+    gap: 64px;
+}
+
+.contact-content ul {
+    gap: 24px;
+}
+
+.contact-content ul li {
+    gap: 16px;
+}
+
+footer a {
+    color: #42434A !important;
+}
